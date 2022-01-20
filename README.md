@@ -14,10 +14,10 @@ To use github's API, an access token with the right permissions has to be genera
 
 This gives the token all the necessary permissions to create and delete repos.
 
-Install the package
+Install the package globally.
 
 ```bash
-npm i gitmk
+npm i -g gitmk
 ```
 
 Create a text file with your github username and access token as follows:
