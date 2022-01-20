@@ -31,4 +31,17 @@ const remove = {
 	},
 };
 
-module.exports = { add, remove };
+const config = {
+	user: {
+		description: 'Configure username',
+		alias: 'u',
+		type: 'string',
+	},
+	token: {
+		description: 'Configure access token',
+		alias: 't',
+		type: 'string',
+	},
+};
+
+module.exports = { add, remove, config };

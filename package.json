@@ -27,10 +27,9 @@
 	"homepage": "https://github.com/Mozetsu/gitmk#readme",
 	"dependencies": {
 		"chalk": "^4.1.2",
+		"dotenv": "^14.2.0",
+		"inquirer": "^8.2.0",
 		"octokit": "^1.7.1",
 		"yargs": "^17.3.1"
-	},
-	"devDependencies": {
-		"dotenv": "^14.2.0"
 	}
 }

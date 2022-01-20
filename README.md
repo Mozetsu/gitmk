@@ -1,30 +1,64 @@
 # gitmk (pronounced git make)
 
-Ever wanted to create remote repos directly from the comfort of your terminal instead of having to break your workflow and head over to github's website? I have, and it's annoying. So I created this package to solve that.
+Ever wanted to create remote repos directly from the comfort of the terminal instead of having to break the workflow and head over to github's website? Quite annoying. Created this package to solve that.
 
-You can create and delete repos from the terminal.
+gitmk can create and delete repos directly in the terminal, easily.
 
 ## Setup
 
-Generate an access token by going to `settings > Developer settings > Personal access tokens`. Generate a new token with the following scopes:
+<hr>
+To use github's API, an access token with the right permissions has to be generated. Go to `settings > Developer settings > Personal access tokens`. Generate a new token with the following scopes:
 
 - repo
 - user
 - delete_repo
 
-This gives the token all the permissions necessary to create and delete repos through github's REST api.
+This gives the token all the necessary permissions to create and delete repos.
+
+Install the package
+
+```bash
+npm i gitmk
+```
+
+Create a text file with your github username and access token as follows:
+
+```bash
+USER=...
+TOKEN=...
+```
+
+This file will be used to setup environment variables so the access token won't be sitting around in the terminal's history.
+
+Run the configuration command to setup the environment variables.
+
+```bash
+gitmk config
+```
+
+Provide the **absolute path** to the newly generated text file.
+
+```bash
+? Config file path: path/to/file.txt
+
+Configuration complete.
+```
+
+Feel free to delete the text file now that the configuration is done.
 
 ## Usage
+
+<hr>
 
 ### Creating remote repos
 
 Create a remote repo with the following command.
 
-```
+```bash
 gitmk add -n "repo-name"
 ```
 
-This adds a remote repo to your github account with a readme file. By default all repos will be public, set the private flag to `true` to change that.
+This adds a remote repo to your github account with a readme file. By default all repos will be public, set the `private` flag to `true` to change that.
 
 ### Create flags
 
@@ -39,7 +73,7 @@ This adds a remote repo to your github account with a readme file. By default al
 
 You can delete a remote repo with the following command.
 
-```
+```bash
 gitmk rm -n "repo-name"
 ```
 
