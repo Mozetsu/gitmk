@@ -45,6 +45,6 @@ gitmk rm -n "repo-name"
 
 ### Delete flags
 
-| Name   | Alias | Type   | Description |
-| ------ | :---: | ------ | ----------- |
-| --name |  -n   | string | Name.       |
+| Name   | Alias |  Type  | Default | Description |
+| ------ | :---: | :----: | :-----: | ----------- |
+| --name |  -n   | string |   n/a   | Name.       |
