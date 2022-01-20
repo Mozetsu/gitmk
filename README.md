@@ -47,8 +47,6 @@ Feel free to delete the text file now that the configuration is done.
 
 ## Usage
 
-<hr>
-
 ### Creating remote repos
 
 Create a remote repo with the following command.
@@ -81,3 +79,7 @@ gitmk rm -n "repo-name"
 | Name   | Alias |  Type  | Default | Description |
 | ------ | :---: | :----: | :-----: | ----------- |
 | --name |  -n   | string |   n/a   | Name.       |
+
+<hr/>
+
+##### This package may have bugs as I'm still developing it. Feel free to contribute, though.
