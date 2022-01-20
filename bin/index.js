@@ -17,7 +17,7 @@ if (!argv.name) {
 }
 
 if (argv._.includes('add')) {
-	const repoArgs = parseArguments(argv, ['name', 'description', 'private']);
+	const repoArgs = parseArguments(argv, ['name', 'description', 'private', 'license']);
 	// Creates remote repository
 	add(repoArgs);
 }

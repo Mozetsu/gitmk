@@ -15,6 +15,12 @@ const add = {
 		type: 'boolean',
 		default: false,
 	},
+	license: {
+		description: 'Repository license template',
+		alias: 'l',
+		type: 'string',
+		default: 'MIT',
+	},
 };
 
 const remove = {
