@@ -28,8 +28,8 @@ This adds a remote repo to your github account with a readme file. By default al
 
 ### Create flags
 
-| Name          | Alias | Type    | Default | Description       |
-| :------------ | :---: | ------- | :-----: | ----------------- |
+| Name          | Alias |  Type   | Default | Description       |
+| :------------ | :---: | :-----: | :-----: | ----------------- |
 | --name        |  -n   | string  |   n/a   | Name.             |
 | --description |  -d   | string  |   n/a   | Description.      |
 | --private     |  -p   | boolean |  false  | Visibility.       |
