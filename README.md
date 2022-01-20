@@ -28,12 +28,12 @@ This adds a remote repo to your github account with a readme file. By default al
 
 ### Create flags
 
-| Name          | Alias | Type    | Description                  |
-| :------------ | :---: | ------- | ---------------------------- |
-| --name        |  -n   | string  | Repository name.             |
-| --descritpion |  -d   | string  | Repository description.      |
-| --private     |  -p   | boolean | Repository visibility.       |
-| --license     |  -l   | string  | Repository license template. |
+| Name          | Alias | Type    | Default | Description       |
+| :------------ | :---: | ------- | :-----: | ----------------- |
+| --name        |  -n   | string  |   n/a   | Name.             |
+| --description |  -d   | string  |   n/a   | Description.      |
+| --private     |  -p   | boolean |  false  | Visibility.       |
+| --license     |  -l   | string  |  "MIT"  | License template. |
 
 ### Deleting remote repos
 
@@ -45,6 +45,6 @@ gitmk rm -n "repo-name"
 
 ### Delete flags
 
-| Name   | Alias | Type   | Description      |
-| ------ | :---: | ------ | ---------------- |
-| --name |  -n   | string | Repository name. |
+| Name   | Alias | Type   | Description |
+| ------ | :---: | ------ | ----------- |
+| --name |  -n   | string | Name.       |
