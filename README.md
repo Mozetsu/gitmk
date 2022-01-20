@@ -6,7 +6,6 @@ gitmk can create and delete repos directly in the terminal, easily.
 
 ## Setup
 
-<hr>
 To use github's API, an access token with the right permissions has to be generated. Go to `settings > Developer settings > Personal access tokens`. Generate a new token with the following scopes:
 
 - repo
