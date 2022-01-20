@@ -1,0 +1,27 @@
+{
+	"name": "gitmk",
+	"version": "0.0.1",
+	"description": "Create remote repos directly from the terminal.",
+	"main": "./bin/index.js",
+	"bin": {
+		"gitmk": "./bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mozetsu/gitmk.git"
+	},
+	"keywords": [
+		"cli",
+		"nodejs",
+		"git"
+	],
+	"author": "Mozetsu",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Mozetsu/gitmk/issues"
+	},
+	"homepage": "https://github.com/Mozetsu/gitmk#readme"
+}
