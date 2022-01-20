@@ -1,8 +1,7 @@
 #! /usr/bin/env node
 const yargs = require('yargs');
 
-const add = require('./CRUD/add');
-const remove = require('./CRUD/remove');
+const {add, remove} = require('./utils/CRUD');
 const flags = require('./utils/flags');
 const parseArguments = require('./utils/parseArgs');
 

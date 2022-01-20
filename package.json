@@ -1,7 +1,7 @@
 {
 	"name": "gitmk",
 	"version": "0.0.1",
-	"description": "Create remote repos directly from the terminal.",
+	"description": "Manage remote repos from the comfort of your terminal.",
 	"main": "./bin/index.js",
 	"bin": {
 		"gitmk": "./bin/index.js"
