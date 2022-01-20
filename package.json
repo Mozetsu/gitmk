@@ -14,6 +14,7 @@
 		"url": "git+https://github.com/Mozetsu/gitmk.git"
 	},
 	"keywords": [
+		"terminal",
 		"cli",
 		"nodejs",
 		"git"
@@ -23,5 +24,13 @@
 	"bugs": {
 		"url": "https://github.com/Mozetsu/gitmk/issues"
 	},
-	"homepage": "https://github.com/Mozetsu/gitmk#readme"
+	"homepage": "https://github.com/Mozetsu/gitmk#readme",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"octokit": "^1.7.1",
+		"yargs": "^17.3.1"
+	},
+	"devDependencies": {
+		"dotenv": "^14.2.0"
+	}
 }
