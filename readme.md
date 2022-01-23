@@ -20,13 +20,13 @@ Install the package globally.
 npm i -g gitmk
 ```
 
-Create a text file with your github username and access token as follows:
+Create a text file with your github access token.
 
 ```bash
-TOKEN=...
+ghp_3XtpPf...
 ```
 
-This file will be used to setup environment variables so the access token won't be sitting around in the terminal's history.
+This file will be used to setup environment variables, and is also a way of not having the access token sitting around in the terminal's command history.
 
 Run the configuration command to setup the environment variables.
 
@@ -34,10 +34,14 @@ Run the configuration command to setup the environment variables.
 gitmk config
 ```
 
-Provide the **absolute path** to the newly generated text file.
+Provide the **absolute path** to the text file containing the access token.
 
 ```bash
 ? Config file path: path/to/file.txt
+
+Adding environment variables...
+
+GitHub Account: [user]
 
 Configuration complete.
 ```
@@ -81,4 +85,4 @@ gitmk rm -n "repo-name"
 
 <hr/>
 
-##### This package may have bugs as I'm still developing it. Feel free to contribute, though.
+###### Feel free to contribute to this project.
