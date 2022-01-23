@@ -1,8 +1,6 @@
 # gitmk (pronounced git make)
 
-Ever wanted to create remote repos directly from the comfort of the terminal instead of having to break the workflow and head over to github's website? Quite annoying. Created this package to solve that.
-
-gitmk can create and delete repos directly in the terminal, easily.
+Create and delete repos directly in the terminal, easily.
 
 ## Setup
 
